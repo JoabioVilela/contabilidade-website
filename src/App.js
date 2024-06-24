@@ -1,6 +1,6 @@
 import './App.css';
-import Carrossel from './componentes/Carrossel';
-import Contato from './componentes/Contato';
+import Carrossel from './components/Carrossel';
+import Contato from './components/Contato';
 
 function App() {
   return (

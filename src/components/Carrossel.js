@@ -1,8 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
 import { Container, Row } from 'react-bootstrap';
-import Imagem1 from "./imagens/Banner1.jpeg";
-import Imagem2 from "./imagens/Banner2.jpeg";
+import Imagem1 from "../assets/images/Banner1.jpeg";
+import Imagem2 from "../assets/images/Banner2.jpeg";
 
 function Carrossel() {
 
