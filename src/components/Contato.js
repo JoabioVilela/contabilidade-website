@@ -30,8 +30,9 @@ function Contato() {
 <Col className='center'>
 <br/>
     <img
-    alt=''
+       alt=''
        src= {QrCode}
+       width={200}
     />
 
 </Col>
