@@ -3,6 +3,7 @@ import Carrossel from './components/Carrossel';
 import Contato from './components/Contato';
 import Menu from './components/Menu';
 import Servicos from './components/Servicos';
+import Missao from './components/Missao';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       </header>
       
       <Carrossel />
+
+      <Missao />
 
       <Servicos />
 
