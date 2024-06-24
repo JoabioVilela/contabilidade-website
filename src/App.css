@@ -46,3 +46,11 @@
   height: 100%;
   position: absolute;
   }
+
+  .center {
+    text-align: center;
+  }
+
+  .avanco-margem {
+    margin-left: 10%;
+  }
