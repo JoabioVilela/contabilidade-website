@@ -6,3 +6,12 @@
   align-items: center;
   justify-content: center;
 }
+
+.servicos {
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
