@@ -2,7 +2,7 @@ import './App.css';
 import Carrossel from './components/Carrossel';
 import Contato from './components/Contato';
 import Menu from './components/Menu';
-import Servicos from './componentes/Servicos';
+import Servicos from './components/Servicos';
 
 function App() {
   return (
