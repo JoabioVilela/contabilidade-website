@@ -8,7 +8,7 @@ function Contato() {
       <Row>
         
         <Col className='center'>
-         <h2>Contato e Endereço</h2><br/>
+         <h1>Contato e Endereço</h1><br/>
         </Col>
         
         </Row>
@@ -16,14 +16,14 @@ function Contato() {
       <Row>
 <Col className='avanco-margem'>
 
-<span>Funcionamos de segunda-feira à sábado, das 8 às 18h</span><br/><br/><br/>
+<span><h2>Funcionamos de segunda-feira à sábado, das 8 às 18h</h2></span><br/><br/><br/>
 
-      <span>Telefone: (71) 9 9613 7000</span><br/>
+      <span><h2>Telefone: (71) 9 9613 7000</h2></span><br/>
 
-      <span>E-mail: kabcontabilidade@gmail.com.br</span><br/><br/>
+      <span><h2>E-mail: kabcontabilidade@gmail.com.br</h2></span><br/><br/>
 
-    <span>Endereço:<br/> <b>Praça Aquilino de Brito, Nº 56, </b><br/>
-      <i>Marcionílio Souza - Bahia</i></span><br/>
+    <span><h2>Endereço:</h2><br/> <b><h2>Praça Aquilino de Brito, Nº 56, </h2></b><br/>
+      <i><h2>Marcionílio Souza - Bahia</h2></i></span><br/>
 
 </Col>
 
@@ -32,7 +32,7 @@ function Contato() {
     <img
        alt=''
        src= {QrCode}
-       width={200}
+       width={400}
     />
 
 </Col>
