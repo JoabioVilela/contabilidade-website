@@ -15,3 +15,12 @@
   justify-content: center;
   padding: 30px;
 }
+
+.contato {
+  font-weight: bold;
+  color: white;
+  background-color: grey;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
