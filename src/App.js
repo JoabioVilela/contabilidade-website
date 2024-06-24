@@ -2,6 +2,7 @@ import './App.css';
 import Carrossel from './components/Carrossel';
 import Contato from './components/Contato';
 import Menu from './components/Menu';
+import Servicos from './componentes/Servicos';
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       </header>
       
       <Carrossel />
+
+      <Servicos />
 
       <Contato />
 
