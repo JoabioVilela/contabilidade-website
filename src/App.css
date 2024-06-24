@@ -28,3 +28,12 @@
 .carousel {
   background-color: grey; 
 }
+
+.map-responsive {
+  margin-top: 25px;
+  overflow: hidden;
+  padding-bottom: 30%;
+  position: relative;
+  height: 0;
+  text-align: center;
+}
