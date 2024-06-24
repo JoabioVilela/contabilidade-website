@@ -1,38 +1,71 @@
-.App {
+.missao {
+  font-weight: bold;
+  color: black;
+  background-color: gold;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.servicos {
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.contato {
+  font-weight: bold;
+  color: white;
+  background-color: grey;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.carousel {
+  background-color: grey; 
+}
+
+.map-responsive {
+  margin-top: 25px;
+  overflow: hidden;
+  padding-bottom: 30%;
+  position: relative;
+  height: 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.map-responsive iframe{
+  left: 0;
+  top: 0;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .center {
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  .avanco-margem {
+    margin-left: 10%;
   }
-}
+
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+  }
+
+  p {
+    background-color: rgb(238, 228, 228);
+    margin: 20px;
+    border-radius:10%;
+    text-align: center;
+  }

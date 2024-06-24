@@ -18,7 +18,7 @@ function Contato() {
 
 <span>Funcionamos de segunda-feira à sábado, das 8 às 18h</span><br/><br/><br/>
 
-      <span>Telefone: (75) 9 8342 1788</span><br/>
+      <span>Telefone: (71) 9 9613 7000</span><br/>
 
       <span>E-mail: kabcontabilidade@gmail.com.br</span><br/><br/>
 
