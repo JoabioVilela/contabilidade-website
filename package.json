@@ -16,7 +16,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "commit": "cz"
+    "commit": "cz",
+    "docker-build": "docker build -t contabilidade-website .",
+    "docker-run": "docker run -p 3000:3000 contabilidade-website"
   },
   "eslintConfig": {
     "extends": [
