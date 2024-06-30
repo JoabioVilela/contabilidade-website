@@ -1,11 +1,14 @@
-WebSite institucional de um escritório de contabilidade feito em React.js.
+WebSite institucional para um escritório de contabilidade feito em React.js.
 
-Usei Docker, Conventional Commits, Semantic Web 2.0 e Git Flow.
+Usei a filosofia Docker e adotei os padrões Semantic Web (para as tags git), Conventional Commits e Git Flow. Ao conferir o repositório, nota-se a aplicação de tais padrões.
 
-Veja o resultado:
+Veja o resultado: https://kabcontabilidade.netlify.app
 
-https://kabcontabilidade.netlify.app
+Tempo gasto: um dia.
 
+Ponto de melhoria: layout em geral e responsividade (mobile) da seção Contato.
+
+Skills: React.js · Git Flow · Docker · Semantic Web · Responsive Web Design.
 
 # Instruções técnicas de uso
 
