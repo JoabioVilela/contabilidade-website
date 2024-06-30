@@ -1,4 +1,13 @@
-# Instruções de uso
+WebSite institucional de um escritório de contabilidade feito em React.js.
+
+Usei Docker, Conventional Commits, Semantic Web 2.0 e Git Flow.
+
+Veja o resultado:
+
+https://kabcontabilidade.netlify.app
+
+
+# Instruções técnicas de uso
 
 1. Clonar;
 
