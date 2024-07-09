@@ -10,6 +10,27 @@
   }
 }
 
+.whatsapp-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #25D366;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.whatsapp-button:hover {
+  background-color: #128C7E;
+}
+
+.whatsapp-button img {
+  margin-right: 10px;
+}
+
 .missao {
   font-weight: bold;
   color: black;
