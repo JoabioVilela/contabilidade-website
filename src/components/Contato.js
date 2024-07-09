@@ -33,6 +33,7 @@ function Contato() {
        alt=''
        src= {QrCode}
        width={400}
+       className="hide-on-mobile"
     />
 
 </Col>
