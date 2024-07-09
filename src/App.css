@@ -4,6 +4,12 @@
   }
 }
 
+@media (min-width: 1025px) {
+  .avanco-margem {
+    margin-left: 10%;
+  }
+}
+
 .missao {
   font-weight: bold;
   color: black;
