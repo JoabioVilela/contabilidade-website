@@ -14,7 +14,7 @@ function Contato() {
         </Row>
 
       <Row>
-<Col className='avanco-margem'>
+<Col>
 
 <span><h2>Funcionamos de segunda-feira à sábado, das 8 às 18h</h2></span><br/><br/><br/>
 
