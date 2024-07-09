@@ -20,7 +20,8 @@
     "eject": "react-scripts eject",
     "commit": "cz",
     "docker-build": "docker build -t contabilidade-website .",
-    "docker-run": "docker run -p 3000:3000 contabilidade-website"
+    "docker-run": "docker run -p 3000:3000 contabilidade-website",
+    "docker-build-run": "docker build -t contabilidade-website . && docker run -p 3000:3000 contabilidade-website"
   },
   "eslintConfig": {
     "extends": [

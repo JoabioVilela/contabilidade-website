@@ -10,7 +10,7 @@ function Carrossel() {
 
     <Container className='carousel'>
       <Row>
-    <Carousel>
+    <Carousel indicators={true} controls={false} >
 
       <Carousel.Item className='center'>
 
@@ -28,7 +28,7 @@ function Carrossel() {
        class="img-fluid"
        alt=''
        src= {Imagem2}
-      />
+       />
 
       </Carousel.Item>
 
