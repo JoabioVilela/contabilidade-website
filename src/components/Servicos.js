@@ -6,7 +6,7 @@ function Servicos() {
         <Container className="servicos" id="servicos">
             <Row>
                 <Col className='center'>
-                <h1>Nossos Serviços</h1><br/>
+                <h1>SERVIÇOS</h1><br/>
                 </Col>
             </Row>
             <div className="servicos-texto">

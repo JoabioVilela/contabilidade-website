@@ -8,7 +8,7 @@ function Contato() {
       <Row>
         
         <Col className='center'>
-         <h1>Contato e Endereço</h1><br/>
+         <h1>CONTATO</h1><br/>
         </Col>
         
         </Row>
