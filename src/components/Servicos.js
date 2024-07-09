@@ -3,61 +3,57 @@ import { Col, Container, Row } from "react-bootstrap";
 function Servicos() {
     return(
 
+      <Container fluid>
         <Container className="servicos" id="servicos">
             <Row>
                 <Col className='center'>
                 <h1>SERVIÇOS</h1><br/>
                 </Col>
             </Row>
-            <div className="servicos-texto">
-            <Row>
-              <Col >
-              <p><h2>Abertura, alteração, baixa e contabilidade de empresa, associações e cooperativas</h2></p>
-              </Col>
-              <Col>
-              <p><h2>Regularização as declarações (DCTF, GFIP, RAIS, DASN-MEI, DIRF, SPED, E-SOCIAL)</h2></p>
-              </Col>
-              <Col >
-              <p><h2>Emissão de certificado digital - A1 ou A3 - (PRESENCIAL)</h2></p>
-              </Col>  
-            </Row>
-
-            <Row>
-              <Col >
-              <p><h2>Regularização de CPF, CNPJ, PIS, DRSC</h2></p>
-              </Col>
-              <Col >
-              <p><h2>Declaração de imposto de renda e Declaração de ITR</h2></p>
-              </Col>
-              <Col >
-              <p><h2>Abertura e/ou regularização da matrícula CEI/CAEPF</h2></p>
-              </Col>  
-            </Row>
+            <div className="servicos-texto d-flex">
             
-            <Row>
-              <Col >
-              <p><h2>Regularização das intimações fiscais</h2></p>
-              </Col>
-              <Col >
-              <p><h2>Parcelamento de impostos federais, estaduais e municipais</h2></p>
-              </Col>
-              <Col >
-              <p><h2>Cálculo de rescisão trabalhista e extratos previdenciários</h2></p>
-              </Col>  
-            </Row>
-            <Row>
-              <Col >
-              <p><h2>Pedido de aposentadoria urbana e/ou rural</h2></p>
-              </Col>
-              <Col >
-              <p><h2>Pedido de auxílios (doença, acidente, pensão, etc.), junto ao INSS</h2></p>
-              </Col>
-              <Col >
-              <p><h2>Prestação de contas de campanha eleitoral do candidato e/ou partido, junto ao TRE</h2></p>
-              </Col>
-            </Row>
+              <div className="item-servico">
+              <p>Abertura, alteração, baixa e contabilidade de empresa, associações e cooperativas</p>
+              </div>
+              <div className="item-servico">
+              <p>Regularização as declarações (DCTF, GFIP, RAIS, DASN-MEI, DIRF, SPED, E-SOCIAL)</p>
+              </div>
+              <div className="item-servico">
+              <p>Emissão de certificado digital - A1 ou A3 - (PRESENCIAL)</p>
+              </div>  
+
+              <div className="item-servico">
+              <p>Regularização de CPF, CNPJ, PIS, DRSC</p>
+              </div>
+              <div className="item-servico">
+              <p>Declaração de imposto de renda e Declaração de ITR</p>
+              </div>
+              <div className="item-servico">
+              <p>Abertura e/ou regularização da matrícula CEI/CAEPF</p>
+              </div>  
+            
+              <div className="item-servico">
+              <p>Regularização das intimações fiscais</p>
+              </div>
+              <div className="item-servico">
+              <p>Parcelamento de impostos federais, estaduais e municipais</p>
+              </div>
+              <div className="item-servico">
+              <p>Cálculo de rescisão trabalhista e extratos previdenciários</p>
+              </div>  
+    
+              <div className="item-servico">
+              <p>Pedido de aposentadoria urbana e/ou rural</p>
+              </div>
+              <div className="item-servico">
+              <p>Pedido de auxílios (doença, acidente, pensão, etc.), junto ao INSS</p>
+              </div>
+              <div className="item-servico">
+              <p>Prestação de contas de campanha eleitoral do candidato e/ou partido, junto ao TRE</p>
+              </div>
             </div>
         </Container>
+      </Container>
     );
 }
 
