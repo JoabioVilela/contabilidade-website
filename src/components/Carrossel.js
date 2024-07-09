@@ -8,7 +8,7 @@ function Carrossel() {
 
   return (
 
-    <Container className='carousel'>
+    <Container fluid className='carousel'>
       <Row>
     <Carousel indicators={true} controls={false} >
 
@@ -16,6 +16,7 @@ function Carrossel() {
 
       <img
        class="img-fluid"
+       id="img-carousel"
        alt=''
        src= {Imagem1}
       />
@@ -26,6 +27,7 @@ function Carrossel() {
 
       <img
        class="img-fluid"
+       id="img-carousel"
        alt=''
        src= {Imagem2}
        />

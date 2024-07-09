@@ -4,6 +4,7 @@ import Contato from './components/Contato';
 import Menu from './components/Menu';
 import Servicos from './components/Servicos';
 import Missao from './components/Missao';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
       <Servicos />
 
       <Contato />
+
+      <Footer />
 
     </div>
   );

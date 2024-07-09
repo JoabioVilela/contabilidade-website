@@ -1,12 +1,10 @@
+*{
+  font-family: "Inter", sans-serif;
+}
+
 @media (max-width: 1024px) {
   .hide-on-mobile {
     display: none;
-  }
-}
-
-@media (min-width: 1025px) {
-  .avanco-margem {
-    margin-left: 10%;
   }
 }
 
@@ -18,9 +16,10 @@
   color: white;
   text-decoration: none;
   padding: 10px 20px;
-  border-radius: 25px;
+  border-radius: 5px;
   font-weight: bold;
   transition: background-color 0.3s;
+  width: 56%;
 }
 
 .whatsapp-button:hover {
@@ -34,10 +33,22 @@
 .missao {
   font-weight: bold;
   color: black;
-  background-color: gold;
+  background-color: #FCC43C;
   padding: 30px;
   align-items: center;
   justify-content: center;
+  height: 40vh;
+  align-content: center;
+}
+
+.missao h1, .servicos h1, .contato h1{
+  font-weight: 700;
+}
+
+.missao p{
+  font-size: 1.8rem;
+  background: none;
+  font-weight: 500;
 }
 
 .servicos {
@@ -46,7 +57,34 @@
   background-color: white;
   align-items: center;
   justify-content: center;
-  padding: 30px;
+  padding: 6rem 0;
+}
+
+.servicos-texto{
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.servicos-texto div.item-servico{
+  width: 30% !important;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 5px;
+  height: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicos-texto div.item-servico p{
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 1rem;
+  font-weight: 400;
+}
+
+#contato{
+  background: #363435;
+  padding: 6rem 0 0 0;
 }
 
 .contato {
@@ -58,10 +96,29 @@
   padding: 30px;
 }
 
+#contato .hide-on-mobile{
+  width: 30%;
+}
+
+#contato .area-wp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contato h1{
+  margin-bottom: 3rem;
+}
+
 .carousel {
   background-color: grey;
   align-items: center;
   justify-content: center;
+}
+
+.Mapa{
+  margin-top: 4rem;
 }
 
 .map-responsive {
@@ -97,10 +154,62 @@
   }
 
   p {
-    background-color: rgb(238, 228, 228);
     margin: 20px;
     border-radius:10%;
     text-align: center;
     align-items: center;
     justify-content: center;
+  }
+
+  /* ATUALIZANDO LUAN */
+
+  /* #363435 */
+
+  header nav{
+    background: #363435;
+  }
+
+  header nav .container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  div#responsive-navbar-nav{
+    justify-content: flex-end !important;
+  }
+
+  .navbar-expand-lg .navbar-nav{
+    margin: 0 !important;
+    gap: 3rem;
+  }
+
+  .navbar-expand-lg .navbar-nav a h2{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  div.carousel.slide{
+    padding: 0;
+  }
+
+  #img-carousel{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+  }
+ 
+  .footer{
+    background: #FCC43C;
+    height: 5vh;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer p{
+    margin: 0;
+    padding: 0;
   }
