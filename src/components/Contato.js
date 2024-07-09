@@ -1,5 +1,6 @@
 import { Col, Container, Row } from 'react-bootstrap';
 import QrCode from "../assets/images/qr-code-contato.png"
+import WhatsAppButton from './WhatsAppButton';
 
 function Contato() {
   return (
@@ -19,6 +20,8 @@ function Contato() {
 <span><h2>Funcionamos de segunda-feira à sábado, das 8 às 18h</h2></span><br/><br/><br/>
 
       <span><h2>Telefone: (71) 9 9613 7000</h2></span><br/>
+      
+      <WhatsAppButton /> <br/>
 
       <span><h2>E-mail: kabcontabilidade@gmail.com.br</h2></span><br/><br/>
 
