@@ -129,7 +129,7 @@
   height: 0;
   text-align: center;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
 }
 
 .map-responsive iframe{
