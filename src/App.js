@@ -4,6 +4,7 @@ import Contato from './components/Contato';
 import Menu from './components/Menu';
 import Servicos from './components/Servicos';
 import Missao from './components/Missao';
+import ExchangeRateCard from './components/ExchangeRateCard';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       </header>
       
       <Carrossel />
+
+      <ExchangeRateCard />
 
       <Missao />
 
