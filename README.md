@@ -7,8 +7,6 @@ Veja o resultado:
 https://kabcontabilidade.netlify.app
 
 
-Ponto de melhoria: layout em geral e responsividade (mobile) da seção Contato.
-
 Skills: React.js · Git Flow · Docker · Semantic Web · Responsive Web Design.
 
 # Instruções técnicas de uso
