@@ -1,4 +1,4 @@
-WebSite institucional para um escritório de contabilidade feito em React.js.
+WebSite institucional (responsivo) para um escritório de contabilidade feito em React.js.
 
 Usei a filosofia Docker e adotei os padrões Semantic Versioning, Conventional Commits e Git Flow.
 
