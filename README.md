@@ -1,6 +1,6 @@
 WebSite institucional (responsivo) para um escritório de contabilidade feito em React.js.
 
-Aplicamos a filosofia DevOps, com contêineres Docker, CI/CD, Netlify e os padrões Semantic Versioning, Conventional Commits e Git Flow.
+Aplicamos as filosofias culturais, práticas e ferramentas DevOps, com contêineres Docker, CI/CD, Netlify e os padrões Semantic Versioning, Conventional Commits e Git Flow.
 
 Veja o resultado:
 
